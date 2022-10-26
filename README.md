@@ -1,4 +1,4 @@
-#README... if you want... you don't have to
+# README... if you want... you don't have to
 ## Intro
 This is a scratchpad of sorts for me to resharpen my skills in bare metal embedded programming. No promises about how pretty this code it, but I hope it will become so (and keep its functionality.)
 
