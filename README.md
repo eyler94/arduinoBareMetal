@@ -33,3 +33,5 @@ avrdude -F -V -c arduino -p ATMEGA328P -P /dev/ttyUSB0 -b 115200 -U flash:w:blin
 Big thanks to the following resources:
 * https://create.arduino.cc/projecthub/milanistef/introduction-to-bare-metal-programming-in-arduino-uno-f3e2b4
 * https://fabacademy.org/2022/labs/charlotte/students/aaron-logan/images/week09/Bare%20Metal%20Programming%20.pdf
+* http://www.florentflament.com/blog/arduino-hello-world-without-ide.html
+* https://maumagnaguagno.github.io/baremetal
