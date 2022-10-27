@@ -21,13 +21,21 @@ ls /dev/tty*
 # The difference is the Arduino target!
 ```
 
-## Current compilation step until I get a working Makefile or CMAKELISTS
+## Compiling
+
+Navigate to the proper directory.
+```sh
+make # This will compile the code.
+make flash # This will compile and flash the Arduino.
+```
+
+<!-- ## Current compilation step until I get a working Makefile or CMAKELISTS
 ```sh
 avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c -o blinkLED.o blinkLED.c
 avr-gcc -mmcu=atmega328p blinkLED.o -o blinkLED.exe
 avr-objcopy -O ihex -R .eeprom blinkLED.exe blinkLED.hex
 avrdude -F -V -c arduino -p ATMEGA328P -P /dev/ttyUSB0 -b 115200 -U flash:w:blinkLED.hex
-```
+``` -->
 
 ## Thanks
 Big thanks to the following resources:
