@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define millSecDelay 100
+#define millSecDelay 1000
 
 int main (void) {
   DDRB |=(1<<5);
